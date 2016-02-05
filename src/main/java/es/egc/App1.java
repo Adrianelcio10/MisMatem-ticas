@@ -14,4 +14,11 @@ public class App1
 		log.info("Returning "+a+"/"+b+"="+result);
 		return result;
 	}
+	static Logger log=Logger.getLogger(App2.class); 
+	
+	public static int multiplica(int a, int b){
+		int result= a*b;
+		log.info("Returning "+a+"*"+b+"="+result);
+		return result;
+	}
 }
